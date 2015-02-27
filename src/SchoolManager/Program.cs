@@ -33,7 +33,9 @@ namespace SchoolManager
 
                     var dt = dataTableBuilder.BuildDataTable(teachersWithStudents);
 
-                    excelPackageCreator.CreateAndSaveExcelPackage(dt);
+                    Console.WriteLine("Hello world!!");
+
+                    //excelPackageCreator.CreateAndSaveExcelPackage(dt);
 
                 }).Wait();
         }
